@@ -1,15 +1,51 @@
 body {
+    margin: 0;
     background: #111;
-    color: white;
     font-family: Arial, sans-serif;
-    text-align: center;
-    padding-top: 100px;
 }
 
-h1 {
-    font-size: 50px;
+.browser {
+    width: 90%;
+    max-width: 1000px;
+    height: 600px;
+    margin: 50px auto;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 30px black;
 }
 
-p {
-    font-size: 20px;
+.tabs {
+    height: 45px;
+    background: #222;
+    display: flex;
+    align-items: end;
+}
+
+.tab {
+    padding: 12px 25px;
+    color: #aaa;
+    background: #333;
+    margin-right: 3px;
+    cursor: pointer;
+}
+
+.tab.active {
+    background: white;
+    color: black;
+}
+
+.address-bar {
+    background: #ddd;
+    padding: 12px;
+    color: #333;
+}
+
+.page {
+    padding: 50px;
+    color: #222;
+}
+
+.page h1 {
+    font-size: 45px;
 }
